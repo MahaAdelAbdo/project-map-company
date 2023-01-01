@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+.title{
+    background-color: #C8AC80;
+    width: 100%;
+    height: 100%;
+    
+     
+}
+.title .continer{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    padding: 4rem 0px;
+ 
+ 
+
+}
+.title .continer h1{
+    font-size: 4rem;
+    font-family: 'Chivo Mono', monospace;
+    padding: 1rem 0px;
+}
+.title .continer h5{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2rem 0px;
+}
+.title .continer button{
+    background-color: black;
+    color: #fff;
+    padding: .5rem 3rem ;
+    border-radius: .5rem;
+    font-size: 1rem;
+        border: 1px solid black;
+}
+  .textwithlogo{
+    
+    width: 100%;
+    background-color: black;
+    color: #fff;
+     
+}
+.textwithlogo .continer{
+   max-height: 100%;
+    text-align: start;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 1260px;
+    margin:0px auto;
+
+}
+.textwithlogo .text_one .logo{
+   font-size: 3rem;
+    color: #C8AC80;
+}
+.textwithlogo .text_one h3{
+    font-size: 1.2rem;
+    padding: .5rem 0px;
+}
+.textwithlogo .text_one p{
+    max-width:90% ;
+    font-size: .9rem;
+}
+@media (max-width:1200px) {
+    .title .continer {
+           
+            padding: 2rem 0px;
+    
+        }
+    .textwithlogo {
+            height: 100%;}
+
+    .textwithlogo .continer {
+            grid-template-columns:1fr;
+            margin-left: 2rem;
+       
+}
+}
+@media (max-width:498px) {
+   .title .continer h1{
+    font-size: 2.5rem;
+    
+}
+}
+@media (max-width:449px) {
+    .title .continer h1 {
+            font-size: 2rem;
+}
+.title .continer h5 {
+    font-size: 1.1rem;
+    color: #fff;
+    padding: 2rem 0px;
+}
+}
+@media (max-width:400px){
+    .title .continer button {
+    padding: .5rem 1rem;
+    }
+}
+@media (max-width:352px) {
+    .title .continer h1 {
+    font-size: 1.7rem;}
+}
+@media (max-width:300px) {
+    .title .continer h1 {
+    font-size: 1.5rem;
+    }
+    .title .continer h5 {
+        font-size: .9rem;   
+    }
+    .title .continer button {
+        font-size: .9rem;
+    }.textwithlogo .text_one p {
+        max-width: 80%;
+        font-size: .8rem;
+    }
+    .textwithlogo .text_one .logo {
+        font-size: 2.1rem;
+        color: #C8AC80;
+    }
+}@media (max-width:284px) {
+    .title .continer h1 {
+            font-size: 1.4rem;
+        }
+}

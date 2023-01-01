@@ -1,0 +1,331 @@
+ .numberCount{
+    width: 100%;
+    height: 100%;
+ }
+ .numberCount-text{
+    text-align: center;
+ 
+ }
+  .numberCount-text h1{
+    font-size: 3rem;
+    padding: 2rem 0px;
+  }
+    .numberCount-text p{
+    font-size: 1rem;
+    max-width: 50%;
+    margin: auto;
+    color: #C8AC80;
+  }
+ .numberCount .controle-number{
+    padding: 4rem 7rem;
+  margin-top: 4rem;
+   background-image: url("https://images.pexels.com/photos/1006293/pexels-photo-1006293.jpeg?auto=compress&cs=tinysrgb&w=800");
+    width: 100%;
+    height:70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+     
+}
+ .numberCount .controle-number h3{
+ text-align: center;
+ color: #e08a00;
+    padding-top: 4rem;
+    font-size: 1.2rem;
+ }
+  .numberCount .controle-number h1{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: .5rem;
+  }
+  .controle-title{
+    text-align: center;
+    font-size: 1rem;
+    padding: 4rem 0px;
+    background-color: aliceblue;
+  }
+   .controle-title h1{
+    font-size: 3rem;
+    padding: 2rem 0px;
+ 
+   }
+ .controle-title p{
+    max-width: 40%;
+    margin: auto;
+    letter-spacing: 2.5px;
+    color: #e08a00;
+ }
+ .image-four{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ }
+ .controle-image{
+     width: 100%;
+     background-color: aliceblue;
+ }
+ .cal_four{
+    max-width:1200px;
+     font-size: .9rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+    margin: 3rem auto;
+    padding: 0px 3rem;
+ }
+  .cal_four .card_empolyee h4{
+    font-size: 1.3rem;
+    padding: 1rem 0px;
+  }
+ .control_background{
+    background-image:url("https://images.pexels.com/photos/917463/pexels-photo-917463.jpeg?auto=compress&cs=tinysrgb&w=800");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 3rem;
+    gap: 20%;
+    padding: 2rem 5rem;
+ 
+ }
+ .control-background-text{
+    padding: 3rem;
+    color: black;
+    height: 100%;
+   
+    
+ }
+  .control-background-text p{
+    padding: .5rem 0px;
+    font-size: 1.1rem;
+  }
+  .control-background-textTwo{
+    padding-top: 4rem;
+  }
+     
+   .control-background-textTwo h4{
+    font-size: 1.4rem;
+    color: purple;
+   }
+    .control-background-textTwo p{
+        font-size: .9rem;
+       
+    }
+ 
+   @media (max-width:1000px) {
+    .numberCount .controle-number {
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .image-four {
+        grid-template-columns:repeat(2, 1fr);
+    }
+     .control_background{
+        grid-template-columns: 1fr;
+        gap: 0%;
+     }
+    .control-background-textTwo {
+        padding: 2rem 0px;
+    }
+     .control-background-text{
+    padding: 0rem;
+     } 
+    
+    
+ }
+ @media (max-width:900px) {
+    .cal_four {
+        grid-template-columns: 1fr;
+    }
+ }
+ @media (max-width:498px) {
+   .numberCount-text h1 {
+         font-size: 2.5rem;
+         padding: 0px;
+         padding-bottom:2rem ;
+   }
+       .numberCount .controle-number {
+          padding: 4rem 3rem;
+          margin-top: 4rem;
+       }
+       .numberCount .controle-number h3 {
+          padding-top: 2rem;  
+       }
+       .numberCount .controle-number h1 {
+          font-size: 2rem;
+          padding-top: .5rem;
+       }
+
+      .numberCount-text h1 {
+      font-size: 2.5rem;
+      padding: 1rem 0px;
+      }
+
+      .numberCount-text p {
+      max-width: 60%;
+      }
+
+      .controle-title {
+         text-align: center;
+         font-size: 1rem;
+         padding: 4rem 0px;
+         background-color: aliceblue;
+      }
+   
+      .controle-title h1 {
+         font-size: 2.5rem;
+         padding: 1rem 0px;
+   
+      }
+   
+      .controle-title p {
+         max-width: 60%;
+         color: #e08a00;
+      }
+      
+   
+ }
+ @media (max-width:449px) {
+   #iframe {
+         width: 100%;
+         height: 100%;
+      }
+      .numberCount-text h1 {
+            font-size: 2rem;
+            padding: 1rem 0px;
+         }
+      .controle-title h1 {
+            font-size: 2rem;
+            padding: 1rem 0px;
+}
+ 
+ } @media (max-width:352px) {
+   .numberCount-text h1 {
+         font-size: 1.5rem;
+         padding: 1rem 0px;
+      }
+   
+      .controle-title h1 {
+         font-size: 1.5rem;
+         padding: 1rem 0px;
+   
+      }
+      .numberCount-text p {
+         font-size: .8rem;}
+      .controle-title p {
+         font-size: .8rem;}
+       
+
+      .control-background-text p {
+         padding: .5rem 0px;
+         font-size: 1rem;
+      }
+
+      .control-background-textTwo {
+         padding-top: 4rem;
+      }
+
+      .control-background-textTwo h4 {
+         font-size: 1.3rem;
+         color: purple;
+      } 
+      .cal_four .card_empolyee h4 {
+          font-size: 1.2rem;
+          padding: 1rem 0px;
+   
+       }
+ 
+      
+ }
+  @media (max-width:313px){
+   .control-background-textTwo p {
+         font-size: .8rem;
+      }
+  }
+ 
+ @media (max-width:284px){
+   .control-background-textTwo h4 {
+   font-size: 1.2rem;
+   color: purple;
+   }
+   .cal_four .card_empolyee h4 {
+      font-size: 1rem;
+      padding: 1rem 0px;
+   }
+ }
+ @media (max-width:284px) {
+   .numberCount-text h1 {
+         font-size: 1.3rem;
+         padding: 1rem 0px;
+      }
+   
+      .controle-title h1 {
+            font-size: 1.3rem;
+         padding: 1rem 0px;
+   
+      }
+   .numberCount .controle-number{
+      padding: 2rem 1rem;}
+  .numberCount .controle-number h3 {
+ 
+     padding-top: 2rem;
+     font-size: .9rem;
+  }
+
+  .numberCount .controle-number h1 {
+     font-size: 1.5rem;
+    
+     padding-top: .5rem;
+  }
+       }
+@media (max-width:275px) {
+.control-background-textTwo h4 {
+      font-size: 1.1rem;
+      color: purple;
+   }
+ .control-background-textTwo p {
+     font-size: .9rem;
+  }
+.control-background-text p {
+   padding: .5rem 0px;
+   font-size: .8rem;
+}
+ .cal_four .card_empolyee h4 {
+    font-size: .8rem;}
+.cal_four .card_empolyee p{
+   font-size: .8rem;
+}
+ 
+}
+@media (max-width:252px) {
+   .control-background-textTwo h4 {
+         font-size: 1rem;
+         color: purple;
+      }
+   
+      .control-background-textTwo p {
+         font-size: .8rem;
+      }
+   .control-background-text p {
+      padding: .5rem 0px;
+      font-size: .8rem;
+   
+    
+   }
+}
+@media (max-width:227px) {
+   .control-background-textTwo h4 {
+   font-size: .8rem;
+   color: purple;
+   }
+   .control-background-text p {
+   padding: .5rem 0px;
+   font-size: .5rem;
+   }
+       .cal_four {
+       
+         height: 140%;
+       }
+}

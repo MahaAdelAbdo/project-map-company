@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+ 
 import './App.css';
-
+import Header from './Companent/Header';
+import Body from './Companent/Body';
+import NumberCount from './Companent/NumberCount';
+import Aos from "aos"
+import "aos/dist/aos.css"
+import { useEffect } from 'react';
+ 
 function App() {
+  useEffect(()=>{
+    Aos.init({duration:2000})
+},[])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <Header/>
+   <Body/>
+    <NumberCount/>
+    <div data-aos="fade-up"> 
+    <div className='footer'>
+      <a href="/"> Template</a>
+      <p>created with </p>
+       <a href="/"> Nicepage</a>
     </div>
-  );
+    </div>
+    </div>
+  ) 
 }
 
 export default App;
